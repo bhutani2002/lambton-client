@@ -1,0 +1,23 @@
+.crausel{
+    margin-top: 0;
+}
+.crau-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* height: 250px; */
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* overflow: unset;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+    object-fit: cover;
+}
+@media screen and (max-width: 1440px) {
+    .crau-image{
+        height: 500px;
+    }
+}

@@ -1,0 +1,57 @@
+.PDF{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 0;
+}
+.pdf-head{
+    margin: 0 0 30px 0;
+    font-size: 40px !important;
+    font: bolder !important;
+}
+.pdf-box{
+    width: 655px;
+    height: 487px;
+    border: 3px solid black;
+}
+.pdf-pre-desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.pdf-desc{
+    padding: 60px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+@media screen and (max-width : 650px){
+    .pdf-preview{
+        width: 300px;
+        height: 280px;
+    }
+    .pdf-box{
+        width: 305px;
+        height: 285px;
+    }
+}
+@media screen and (max-width : 310px){
+    .pdf-preview{
+        width: 200px;
+        height: 180px;
+    }
+    .pdf-box{
+        width: 205px;
+        height: 185px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .pdf-desc{
+        width: 100%;
+    }
+}

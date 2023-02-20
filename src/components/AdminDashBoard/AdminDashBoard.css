@@ -1,0 +1,90 @@
+/* .AdminDashBoard{
+    margin: 5% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+.Career-Status, .Procurement-Status{
+    padding: 50px;
+}
+.CareerTable-Main-Head, .ProcurementTable-Main-Head{
+    margin: 5% 0 !important;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: left;
+}
+.CareerTable-Sec-Head, .ProcurementTable-Sec-Head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: px 0 0 0; */
+    font-size: 30px;
+    font-weight: bold;
+}
+.careertable-admin, .procurementtable-admin, .AddOpp-content, .AddOpp-head, .Addoppbut{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+input, textarea, select{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px !important;
+    font: bold !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+select{
+    cursor: pointer;
+}
+.closedate > input{
+    cursor: pointer;
+}
+.AddOpp-head{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 50px 0 30px 0 !important;
+}
+.AddOpp-content{
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Addoppbut{
+    padding: 30px;
+}
+.Oppbtn{
+    padding: 5px 20px !important;
+    font-size: 20px !important;
+    background-color: #ED1B2F !important;
+    border: 2px solid #ED1B2F !important;
+    cursor: pointer !important;
+}
+.contain{
+    height: 100% !important;
+    text-align: left !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 30px !important;
+}
+
+@media screen and (max-width: 570px){
+    .CareerTable-Main-Head, .ProcurementTable-Main-Head{
+        font-size: 30px;
+    }
+    .CareerTable-Sec-Head, .ProcurementTable-Sec-Head{
+        font-size: 25px;
+    }
+    .AddOpp-head{
+        font-size: 20px;
+    }
+    .Career-Status, .Procurement-Status {
+        padding: 0px;
+    }
+    .AddOpp-content {
+        flex-direction: column;
+    }
+}

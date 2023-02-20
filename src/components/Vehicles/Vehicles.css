@@ -1,0 +1,411 @@
+.ImageElectric{
+    position: relative;
+    /* width: 100%;
+    height: 480px;
+    overflow: hidden;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+}
+.toyoelec{
+    /* position: relative; */
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* background: linear-gradient(120deg, rgba(0,0,0,0.8) 70%, transparent 30%); */
+    z-index: -1;
+}
+.Desc{
+    position: absolute;
+}
+.centredesc{
+    margin: 8% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.centreheading{
+    font-size: 50px;
+    font: bolder;
+    margin-bottom: 20px;
+}
+.pointnames{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.point{
+    margin: 0 25px 0 0 ;
+}
+ul{
+    padding-left: 0;
+}
+.red-underline::after{
+    content: "";
+    height: 4px;
+    width: 10%;
+    position: absolute;
+    left: 45%;
+    background: #ed1b2f;
+    display: block;
+}
+.introback{
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.intro{
+    position: relative;
+}
+.intro_text{
+    position: absolute;
+    top: 100px;
+}
+.SolutionImages, .SolImg, .SolImgHeading, .SolImgDesc, .SolsHeadText, .Solspara{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.Sec1, .Sec2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+.SolsHead{
+    padding: 30px !important;
+}
+.SolImgHeading{
+    font-size: 21px;
+}
+.SolImgDesc{
+    font-size: 17px !important;
+}
+.ImgSolsHead{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 30px;
+}
+.SolsHeadText{
+    position: relative;
+    font-size: 35px !important;
+    font-weight: bolder;
+}
+.red-underline-sec::after{
+    content: "";
+    height: 4px;
+    width: 20%;
+    position: absolute;
+    top: 100%;
+    left: 40%;
+    background: #ed1b2f;
+    display: block;
+}
+.Solspara{
+    font-size: 23px !important;
+}
+.Solutions , .SolutionImages{
+    padding: 30px 0 0 0;
+}
+
+  .nav-link{
+    opacity: 1 !important;
+  }
+  .car-tab .nav-link{
+    color: black !important;
+  }
+  .nav-link{
+    border-radius: 25px !important;
+    font-size: 18px !important;
+  }
+  .nav-pills .nav-link.active{
+    background-color: #DE0214 !important;
+    color: white !important;
+  }
+
+  .cardimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: unset;
+	  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.cardbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+	  overflow: hidden;
+	  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.cardbo{
+  margin: 10px 20px;
+  border-radius: 30px;
+  overflow: hidden;
+  position: relative;
+}
+/* img {
+  transition: .5s ease all;
+} */
+.cardbo:hover img {
+  transform: scale(1.1);
+}
+.back{
+    /* position: relative; */
+        /* background: #DFE5EA; */
+        background: linear-gradient(180deg,  #DFE5EA 80%, transparent 20%) !important;
+    /* height: 50px; */
+}
+.carlink{
+    padding: 50px 0 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+.carlink a{
+    text-decoration: none;
+    color: #0071b3;
+    cursor: pointer;
+}
+.carlink a:hover{
+    text-decoration: underline;
+}
+.car-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0 10px 0;
+    flex-direction: column;
+}
+.model-Name{
+    font: bolder !important;
+}
+.vcard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.veh-card{
+    padding: 30px;
+}
+.intro_heading{
+    text-align: center !important;
+    font-size: 50px;
+    font: bolder;
+    margin-bottom: 20px;
+}
+.veh-desc-para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+.million{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.million-box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px 0;
+    font: bold !important;
+}
+.million-box .col{
+    flex-grow: 0 !important;
+}
+.mill-top{
+    position: absolute;
+    top: -13px;
+    left: 30px;
+    padding: 0 10px;
+    background: #F2F7FB;
+}
+.intro{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.veh-desc-para{
+    font-size: 17px;
+    color: #373d45;
+    line-height: 1.3;
+    margin: 10px 0 30px 0;
+}
+.mill-main-head{
+    font-size: 57px;
+    line-height: 1;
+    color: #0071b3;
+    font-family: Helvetica,Arial,sans-serif;
+    font: bolder;
+}
+.mill-main-sec{
+    font-size: 20px;
+    /* color: #141e2b; */
+    color: white;
+    font-family: Helvetica,Arial,sans-serif;
+}
+.mill-main-down{
+    color: white;
+}
+/* .mill-main-down::before{
+    display: inline-block;
+    content: "";
+    height: 4px !important;
+    background: #141e2b;
+    width: 10% !important;
+}
+.mill-main-down::after{
+    display: inline-block;
+    content: "";
+    height: 4px !important;
+    background: #141e2b;
+    width: 10% !important;
+} */
+.centrenames{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.faq{
+    margin-top: 20px !important;
+}
+.red-underline-faq::after{
+    content: "";
+    height: 4px;
+    width: 4%;
+    position: absolute;
+    top: 100%;
+    left: 48%;
+    background: #ed1b2f;
+    display: block;
+}
+.Accord{
+    margin: 0 0 40px 0 !important;
+    /* padding: 35px; */
+}
+.Elecback{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.Elec_text, .Elec_heading{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Calcbtn{
+    background-color: transparent !important;
+    border-color: #373d45 !important;
+    color: #373d45 !important;
+    border: 2px solid !important;
+    padding: 9px 32px 11px !important;
+    border-radius: 6px !important;
+    line-height: 1.2 !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    transition: background .3s ease 0s,border .3s ease 0s !important;
+    cursor: pointer;
+    font-size: 20px !important;
+}
+.Calcbtn a{
+    text-decoration: none;
+    color: #373d45 !important;
+}
+.Calcbtn:hover{
+    background-color:#eef2f5 !important;
+}
+.calc_heading{
+    text-align: center !important;
+    font-size: 30px;
+    font:bolder;
+    margin-bottom: 20px;
+}
+.calc-desc-para{
+    font-size: 20px;
+    color: #373d45;
+    line-height: 1.3;
+    margin: 10px 0 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.calc_text{
+    position: absolute;
+    top: 15px;
+}
+@media screen and (max-width: 1000px) {
+    /* .centredesc{
+        margin: 40% 0 0 0;
+    } */
+    .toyoelec{
+        height: 500px;
+    }
+    .pointnames{
+        flex-direction: column;
+    }
+  }
+
+@media screen and (max-width: 500px){
+    .toyoelec{
+        height: 300px;
+    }
+    .pointnames{
+        color: white !important;
+    }
+}
+@media screen and (max-width: 300px){
+    .toyoelec{
+        height: 300px;
+    }
+    .calc_heading{
+        font-size: 15px;
+    }
+    .calc-desc-para{
+        font-size: 10px;
+    }
+    .Calcbtn{
+        font-size: 13px !important;
+    }
+}

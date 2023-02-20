@@ -1,0 +1,181 @@
+.footer {
+    padding: 20px 0 10px 0;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto 0; */
+    /* padding-bottom: 38px; */
+    margin: 100px auto 0 auto;
+    max-width: 90%;
+    border-top: 2px solid rgb(27, 27, 27);
+    /* position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+  }
+  .footer img {
+    width: 26%;
+  }
+  .footer p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #B8B8B8;
+    letter-spacing: 0.5px;
+    margin-top: 20px;
+  }
+  /* a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+a:hover{
+    color: white;
+} */
+  .foot__logo {
+    font-size:x-large;
+    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    color: black;
+    margin-top: 40px;
+    object-fit: contain;
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    /* font-family: 'Lobster', cursive; */
+    /* font-family: 'Pacifico', cursive; */
+    /* font-family: 'Edu QLD Beginner', cursive; */
+  }
+  .foot__logo:hover{
+    color: black;
+  }
+  .gray-color{
+    color: rgb(60, 57, 53);
+}
+.footer-bottom ul.social-network {
+  list-style: none;
+  display: inline;
+  margin: auto;
+}
+
+.footer-bottom ul.social-network li {
+  display: inline;
+  margin: 0 2px;
+}
+
+.footer-bottom .social-network a.icoMail:hover {
+  background-color: whitesmoke;
+  transition: all 0.8s;
+}
+.footer-bottom .social-network a.icoGitHub:hover {
+  background-color: black;
+  transition: all 0.8s;
+}
+
+.footer-bottom .social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+  transition: all 0.8s;
+}
+
+.footer-bottom .social-network a.icoInstagram:hover {
+  background: #f09433;
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+  transition: all 0.8s;
+}
+.fa-envelope:hover{
+    color: red !important;
+}
+
+/* .footer-bottom .social-network a.icoRss:hover i,
+.footer-bottom .social-network a.icoFacebook:hover i,
+.footer-bottom .social-network a.icoVimeo:hover i,
+.footer-bottom .social-network a.icoLinkedin:hover i {
+  color: #282d33;
+} */
+
+.footer-bottom .social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  border-radius: 50%;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  font-size: 22px;
+}
+
+.footer-bottom .social-circle li i {
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+}
+
+/* .footer-bottom .social-circle li a:hover i,
+.footer-bottom .triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  transition: all 0.2s;
+} */
+
+.footer-bottom .social-circle i {
+  color: #fff;
+  transition: all 0.8s;
+}
+
+.footer-bottom .social-circle a {
+  background-color: #282d33;
+}
+/* .fab fa-github{
+    color: white;
+} */
+
+.Location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ContactUS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Foot-Links a{
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  font: bolder !important;
+  letter-spacing: 0.005em;
+  line-height: 20px;
+}
+.Foot-Links{
+  margin: 10px 0 0 0 !important;
+}
+.Foot-Links a:hover{
+  color: #DE0214;
+}
+.FooterLinks{
+  padding: 20px;
+}
+@media screen and (max-width: 1300px){
+  .footer{
+    margin: 0 auto;
+  }
+}
