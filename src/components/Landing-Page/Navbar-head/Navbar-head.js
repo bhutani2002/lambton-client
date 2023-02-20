@@ -12,7 +12,7 @@ import vincenzo from '../../../assets/images/vince.png'
 import sarniachamber from '../../../assets/images/Sarnia-chamber.png'
 import ToyoLogo from '../../../assets/images/Toyota-Logo.png'
 import HandLogo from '../../../assets/images/hand-logo.png'
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, NavLink } from 'react-router-dom';
 
 
 const NavbarHead = ({setLoginUser, butName, setbutName, usermail}) => {
@@ -56,15 +56,19 @@ const NavbarHead = ({setLoginUser, butName, setbutName, usermail}) => {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto Navbar-Links">
-                {/* <Nav.Link className="header-link" href = '/'>Home</Nav.Link> */}
-                <Nav.Link className="header-link" href ='/Vehicles'>Vehicles</Nav.Link>
-                {/* <Nav.Link className="header-link" href='#Training'>Training</Nav.Link> */}
-                <Nav.Link className="header-link" href = '/AboutUs'>AboutUs</Nav.Link>
+                {/* <NavLink exact to="/">Home</NavLink> */}
+                <NavLink to="/Vehicles" className="header-link">Vehicles</NavLink>
+                <NavLink to="/AboutUs" className="header-link">AboutUs</NavLink>
+                <NavLink to="/Careers" className="header-link">Careers & Training</NavLink>
+                <NavLink to="/PlantDetails" className="header-link">Plant Details</NavLink>
+                <NavLink to="/Procurement" className="header-link">Procurement</NavLink>
+                {usermail === 'Test@gmail.com' && <NavLink className="header-link" to ='/admindashboard'>Dashboard</NavLink>}
+                {/* <Nav.Link className="header-link" href ='/Vehicles' >Vehicles</Nav.Link> */}
+                {/* <Nav.Link className="header-link" href = '/AboutUs'>AboutUs</Nav.Link>
                 <Nav.Link className="header-link" href='/Careers'>Careers & Training</Nav.Link>
-                {/* <Nav.Link className="header-link" href='#Investors'>Investors</Nav.Link> */}
                 <Nav.Link className="header-link" href='/PlantDetails'>Plant Details</Nav.Link>
-                <Nav.Link className="header-link" href='/Procurement'>Procurement</Nav.Link>
-                {usermail === 'Test@gmail.com' && <Nav.Link className="header-link" href='/admindashboard'>Dashboard</Nav.Link>}
+                <Nav.Link className="header-link" href='/Procurement'>Procurement</Nav.Link> */}
+                {/* {usermail === 'Test@gmail.com' && <Nav.Link className="header-link" href='/admindashboard'>Dashboard</Nav.Link>} */}
                 {/* <div onClick={(e) => {toggleRegister(e)}}>
                   <Nav.Link><Button className = 'logbut'>SignUp/Login</Button></Nav.Link>
                 </div> */}

@@ -75,3 +75,14 @@ p{
     align-items: center;
     padding: 60px 60px !important;
 }
+.Comp-image{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+@media screen and (max-width: 768px){
+    .description{
+        padding: 15px 15px !important;
+    }
+}

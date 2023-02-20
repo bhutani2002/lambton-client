@@ -55,8 +55,9 @@ a:hover{
 .header-link{
     margin:0 10px;
     font-weight: 500;
-    opacity: 0.75;
-    color: rgba(255, 255, 255, 0.87);
+    /* opacity: 1 !important; */
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
 }
 .header-link:hover{
     opacity: 1;
@@ -273,6 +274,9 @@ a:hover{
   .nav-link{
     color: white !important;
   }
+.active{
+  color:#ED1B2F !important;
+}
   nav.navbar .navbar-toggler-icon {
     width: 24px;
     height: 17px;
@@ -318,9 +322,6 @@ a:hover{
     justify-content: center;
     align-items: center;
     font-size: 20px;
-  }
-  .Navbar-Links:hover{
-    color: red !important;
   }
   .navbar .container{
     --bs-gutter-x: 0rem;
@@ -369,7 +370,16 @@ a:hover{
       height: 150px;
     }
     .navbar-toggler{
-      margin-top: 20px;
+      /* margin-top: 20px; */
+      margin-right: 0px;
+      padding-left: 0px;
+    }
+    .navbar-brand{
+      margin-right: 0px !important;
+    }
+    .navbar>.container{
+      display: flex !important;
+      justify-content: center !important;
     }
  }
   /* @media screen and (max-width: 1000px) {

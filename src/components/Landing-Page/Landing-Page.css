@@ -9,6 +9,7 @@
     margin: 0 0 30px 0;
     font-size: 40px !important;
     font: bolder !important;
+    text-align: center;
 }
 .pdf-box{
     width: 655px;
@@ -29,6 +30,11 @@
     justify-content: center;
     align-items: center;
     text-align: justify;
+}
+@media screen and (max-width: 768px){
+    .pdf-desc{
+        padding: 35px!important;
+    }
 }
 @media screen and (max-width : 650px){
     .pdf-preview{

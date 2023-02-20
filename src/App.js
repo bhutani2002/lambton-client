@@ -6,7 +6,7 @@ import NavbarHead from './components/Landing-Page/Navbar-head/Navbar-head';
 import Toyota from './components/Landing-Page/Toyota/Toyota';
 import Login from './components/Login/Login';
 import Register from './components/Register/Register';
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate, redirect } from "react-router-dom";
 import { useEffect, useState } from 'react';
 import AdminDashBoard from './components/AdminDashBoard/AdminDashBoard';
 import PageNotFound from './components/PageNotFound/PageNotFound';
@@ -17,6 +17,7 @@ import Vehicles from './components/Vehicles/Vehicles';
 import Accordion from './components/Accordion/Accordion';
 import PlantDetails from './components/PlantDetails/PlantDetails';
 import { ToastContainer } from 'react-toastify';
+import Procurement from './components/Procurement/Procurement';
 // import { useNavigate } from 'react-router-dom';
 
 function App() {
@@ -75,9 +76,11 @@ function App() {
           <Route path = '/Careers' element = {<Careers/>} />
           <Route path = '/Vehicles' element = {<Vehicles/>} />
           <Route path = '/PlantDetails' element = {<PlantDetails/>} />
+          <Route path = '/Procurement' element = {<Procurement/>} />
           <Route path = '/admindashboard' element = {(userMail === 'Test@gmail.com') ? <AdminDashBoard/> : <PageNotFound/>} />
           {/* <Route exact path = '/admindashboard' element = {(user && (user.email === 'Test@gmail.com')) ? <AdminDashBoard/> : window.history.replaceState(null, '', '/')} /> */}
           {/* <Route path = '/admindashboard' element = {<AdminDashBoard/>}/> */}
+          <Route path = '*' element = {<PageNotFound/>} />
         </Routes>
         <Footer/>
         <Goto/>

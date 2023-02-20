@@ -1,0 +1,16 @@
+.ComingSoon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CSImage{
+    background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+}

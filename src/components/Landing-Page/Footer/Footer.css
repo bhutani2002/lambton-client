@@ -20,9 +20,9 @@
     right: 0;
     bottom: 0; */
   }
-  .footer img {
+  /* .footer img {
     width: 26%;
-  }
+  } */
   .footer p {
     font-weight: 400;
     font-size: 14px;
@@ -173,6 +173,14 @@ a:hover{
 }
 .FooterLinks{
   padding: 20px;
+}
+.LCLogo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  padding: 10px;
 }
 @media screen and (max-width: 1300px){
   .footer{

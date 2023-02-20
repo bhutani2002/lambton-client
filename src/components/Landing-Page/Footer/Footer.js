@@ -2,6 +2,7 @@ import './Footer.css'
 import React from 'react'
 import { Container, Row, Col} from "react-bootstrap";
 import '../../../../node_modules/font-awesome/css/font-awesome.min.css';
+import lambtonlogo from '../../../assets/images/LC-removebg-preview.png'
 
 const Footer = () => {
   return (
@@ -14,7 +15,7 @@ const Footer = () => {
             <div className="Foot-Links"><a href="/Vehicles">Vehicles</a></div>
             <div className="Foot-Links"><a href="/AboutUs">About Us</a></div>
             <div className="Foot-Links"><a href="/Careers">Careers</a></div>
-            <div className="Foot-Links"><a href="/ProjectOverview">Plant Details</a></div>
+            <div className="Foot-Links"><a href="/PlantDetails">Plant Details</a></div>
             <div className="Foot-Links"><a href="/Procurement">Procurement</a></div>
           </Col>
           <Col size={12} md = {4} sm={4} className="text-center ContactUS FooterLinks" style = {{padding: '30px'}}>
@@ -78,6 +79,9 @@ const Footer = () => {
         
         <div style = {{display: "flex", justifyContent: 'center', alignItems: "center"}}>
                 {/* <p> © Copyright 2023. All Rights Reserved</p> */}
+              <div className = 'LCLogo'>
+                <img src = {lambtonlogo} width = "80px" height = "30px"/>
+              </div>
               <p>© 2023 Lambton College Canada</p>
         </div>
       </Container>
