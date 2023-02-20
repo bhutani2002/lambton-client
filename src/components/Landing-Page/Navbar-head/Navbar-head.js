@@ -62,7 +62,7 @@ const NavbarHead = ({setLoginUser, butName, setbutName, usermail}) => {
                 <NavLink to="/Careers" className="header-link">Careers & Training</NavLink>
                 <NavLink to="/PlantDetails" className="header-link">Plant Details</NavLink>
                 <NavLink to="/Procurement" className="header-link">Procurement</NavLink>
-                {usermail === 'Test@gmail.com' && <NavLink className="header-link" to ='/admindashboard'>Dashboard</NavLink>}
+                {usermail === 'LambtonEPZ@gmail.com' && <NavLink className="header-link" to ='/admindashboard'>Dashboard</NavLink>}
                 {/* <Nav.Link className="header-link" href ='/Vehicles' >Vehicles</Nav.Link> */}
                 {/* <Nav.Link className="header-link" href = '/AboutUs'>AboutUs</Nav.Link>
                 <Nav.Link className="header-link" href='/Careers'>Careers & Training</Nav.Link>

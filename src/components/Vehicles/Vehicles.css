@@ -77,6 +77,7 @@ ul{
     justify-content: center;
     align-items: center;
     margin-bottom: 25px;
+    text-align: center;
 }
 .Sec1, .Sec2{
     display: flex;
@@ -205,6 +206,7 @@ ul{
     align-items: center;
     padding: 30px 0 10px 0;
     flex-direction: column;
+    color: black;
 }
 .model-Name{
     font: bolder !important;
@@ -378,6 +380,22 @@ ul{
     position: absolute;
     top: 15px;
 }
+.pro-tab{
+    padding: 20px;
+}
+@media screen and (max-width: 420px) {
+    .Elecback{
+        height: 770px;
+    }
+    .calc_text{
+        padding: 20px !important;
+    }
+}
+@media screen and (max-width: 350px){
+    .introback{
+        height: 800px;
+    }
+}
 @media screen and (max-width: 1000px) {
     /* .centredesc{
         margin: 40% 0 0 0;
@@ -401,14 +419,5 @@ ul{
 @media screen and (max-width: 300px){
     .toyoelec{
         height: 300px;
-    }
-    .calc_heading{
-        font-size: 15px;
-    }
-    .calc-desc-para{
-        font-size: 10px;
-    }
-    .Calcbtn{
-        font-size: 13px !important;
     }
 }

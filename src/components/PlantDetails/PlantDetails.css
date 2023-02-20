@@ -42,7 +42,7 @@
     flex-wrap: wrap;
 }
 .solution-pdf-desc, .ProjectPlan-pdf-desc, .Business-pdf-desc{
-    padding: 60px;
+    padding: 35px;
     width: 50%;
     display: flex;
     justify-content: center;

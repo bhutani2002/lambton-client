@@ -56,7 +56,7 @@ const Vehicles = () => {
         <Row className = "Solutions">
             <Row className = 'SolsDesc'>
                 <Row className = 'SolsHead'>
-                    <Col md = {12} sm = {6} className = 'SolsHeadText red-underline-sec'>
+                    <Col md = {12} sm = {12} className = 'SolsHeadText red-underline-sec'>
                         <div>One Company, Multiple Solutions</div>
                         <img src = {leaf}></img>
                     </Col>
@@ -107,7 +107,7 @@ const Vehicles = () => {
         <Row className = "Solutions">
             <Row className = 'SolsDesc'>
                 <Row className = 'SolsHead'>
-                    <Col md = {12} sm = {6} className = 'SolsHeadText red-underline-sec'>
+                    <Col md = {12} sm = {12} className = 'SolsHeadText red-underline-sec'>
                         <div> Find Your Ideal Electrified Vehicle </div>
                         <img src = {leaf}></img>
                     </Col>
@@ -130,14 +130,14 @@ const Vehicles = () => {
                     </Nav>
                     <Tab.Content id="slideInUp">
                         <Tab.Pane eventKey="first">
-                        <div className = 'vcard'>
-                            {/* <Col md = {4} sm = {6}> */}
-                                <VehicleCard ImgLink = {PriusPrime} ModelYear = {2022} ModelName = "Prius Prime"/>
-                            {/* </Col> */}
-                            {/* <Col md = {4} sm = {6}> */}
-                                <VehicleCard ImgLink = {RAV4Prime} ModelYear = {2023} ModelName = "RAV4 Prime"/>
-                            {/* </Col> */}
-                        </div>
+                            <div className = 'vcard'>
+                                {/* <Col md = {4} sm = {6}> */}
+                                    <VehicleCard ImgLink = {PriusPrime} ModelYear = {2022} ModelName = "Prius Prime"/>
+                                {/* </Col> */}
+                                {/* <Col md = {4} sm = {6}> */}
+                                    <VehicleCard ImgLink = {RAV4Prime} ModelYear = {2023} ModelName = "RAV4 Prime"/>
+                                {/* </Col> */}
+                            </div>
                         </Tab.Pane>
                         <Tab.Pane eventKey="second">
                             <div className = 'vcard'>
@@ -170,7 +170,7 @@ const Vehicles = () => {
 
 
         <Row className = 'SolsHead faq'>
-            <Col md = {12} sm = {6} className = 'SolsHeadText red-underline-faq'>
+            <Col md = {12} sm = {12} className = 'SolsHeadText red-underline-faq'>
                 <div> FAQs </div>
             </Col>
         </Row>

@@ -77,7 +77,8 @@ function App() {
           <Route path = '/Vehicles' element = {<Vehicles/>} />
           <Route path = '/PlantDetails' element = {<PlantDetails/>} />
           <Route path = '/Procurement' element = {<Procurement/>} />
-          <Route path = '/admindashboard' element = {(userMail === 'Test@gmail.com') ? <AdminDashBoard/> : <PageNotFound/>} />
+          {/* <Route path = '/admindashboard' element = {(userMail === 'Test@gmail.com') ? <AdminDashBoard/> : <PageNotFound/>} /> */}
+          <Route path = '/admindashboard' element = {(userMail === 'LambtonEPZ@gmail.com') ? <AdminDashBoard/> : <PageNotFound/>} />
           {/* <Route exact path = '/admindashboard' element = {(user && (user.email === 'Test@gmail.com')) ? <AdminDashBoard/> : window.history.replaceState(null, '', '/')} /> */}
           {/* <Route path = '/admindashboard' element = {<AdminDashBoard/>}/> */}
           <Route path = '*' element = {<PageNotFound/>} />

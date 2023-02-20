@@ -52,7 +52,7 @@ const AboutUs = () => {
               <h1 className = 'Background-Name'>OUR MISSION</h1>
               <div className = 'Underline'></div>
             </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas purus sem, sagittis sed lacus in, molestie euismod magna. Donec eleifend porta erat, vitae lacinia lorem consectetur non. Quisque malesuada sapien sed tempus posuere. Nunc convallis tellus eu lectus varius gravida. Quisque a nulla ac felis vestibulum facilisis et porta erat. Nunc vitae ante vestibulum, luctus turpis ut, dignissim odio. Ut rhoncus et augue pulvinar pellentesque. Quisque sollicitudin nisi sed ultrices aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas purus sem, sagittis sed lacus in, molestie euismod magna. Donec eleifend porta erat, vitae lacinia lorem consectetur non. Quisque malesuada sapien sed tempus posuere. Nunc convallis tellus eu lectus varius gravida. Quisque a nulla ac felis vestibulum facilisis et porta erat. Nunc vitae ante vestibulum, luctus turpis ut, dignissim odio. Ut rhoncus et augue pulvinar pellentesque. Quisque sollicitudin nisi sed ultrices aliquam.</p>
+          <p>To be an active agent in the fight against climate change, applying the best practices and using clean technologies in all our processes. Also putting our province and local community as a world economic center, open to all international business actors and bringing them all with the incentives and investment capital opportunities to make and lead the changes the world needs.</p>
           </Col>
         </Row>
       </Row>

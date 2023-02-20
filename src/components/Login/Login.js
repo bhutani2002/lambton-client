@@ -29,7 +29,7 @@ const Login = ({ setLoginUser, setbutName}) => {
         if(email && password){
             axios.post("/api/login", user)
             .then(res => {
-                if(res.data.user.email === 'Test@gmail.com'){
+                if(res.data.user.email === 'LambtonEPZ@gmail.com'){
                     desig = "Admin";
                 }else{
                     desig = "";
@@ -41,16 +41,18 @@ const Login = ({ setLoginUser, setbutName}) => {
                 else if(res.data.code === 'L3')
                     toast.error(res.data.message);
                 
-                setLoginUser(res.data.user);
-                setbutName("LogOut");
-                
-                window.localStorage.setItem("isLoggedIn", true);
-                window.localStorage.setItem("userMail", res.data.user.email);
-                
-                if(res.data.user.email === 'Test@gmail.com')
-                    navigate('/admindashboard')
-                else
-                    navigate('/');
+                if(res.data.code === 'L1'){
+                    setLoginUser(res.data.user);
+                    setbutName("LogOut");
+                    
+                    window.localStorage.setItem("isLoggedIn", true);
+                    window.localStorage.setItem("userMail", res.data.user.email);
+                    
+                    if(res.data.user.email === 'LambtonEPZ@gmail.com')
+                        navigate('/admindashboard')
+                    else
+                        navigate('/');
+                }
             })
         } else {
             toast.warn("Invalid Input");

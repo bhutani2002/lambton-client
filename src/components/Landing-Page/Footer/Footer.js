@@ -10,7 +10,7 @@ const Footer = () => {
       <Container>
         <Row style = {{alignItems: "flex-start"}}>
           <Col className = "FooterLinks" size={12} md = {4} sm={4} style = {{display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column", padding: '30px'}}>
-            <div style = {{fontSize: '30px', fontWeight: 'bolder', color: 'black', borderBottom: '3px solid black', maxWidth: '90%', marginBottom: '10px'}}>Sarnia Lambton EPZ</div>
+            <div style = {{fontSize: '30px', fontWeight: 'bolder', color: 'black', borderBottom: '3px solid black', maxWidth: '90%', marginBottom: '0 auto', textAlign: 'center'}}>Sarnia Lambton EPZ</div>
             <div className="Foot-Links"><a href="/">Home</a></div>
             <div className="Foot-Links"><a href="/Vehicles">Vehicles</a></div>
             <div className="Foot-Links"><a href="/AboutUs">About Us</a></div>
@@ -21,7 +21,7 @@ const Footer = () => {
           <Col size={12} md = {4} sm={4} className="text-center ContactUS FooterLinks" style = {{padding: '30px'}}>
             <div className="footer-bottom">
               <div>
-                <div style = {{fontSize: '30px', fontWeight: 'bolder', color: 'black', borderBottom: '3px solid black', maxWidth: '95%', marginBottom: '10px'}}>
+                <div style = {{fontSize: '30px', fontWeight: 'bolder', color: 'black', borderBottom: '3px solid black', maxWidth: '95%', margin: '0 auto'}}>
                     Our Team
                 </div>
                 <div style = {{paddingBottom: '20px'}}>
@@ -38,12 +38,12 @@ const Footer = () => {
                         <p>anshbhutani1996@gmail.com [Ansh]</p>
                     </div>
                     <div style = {{display: 'flex', justifyContent: 'left', alignItems: 'center'}}>
-                        <a href = "mailto:raagbhutani2002@gmail.com" style = {{margin: '10px'}}><i style = {{color: 'black', fontSize: '30px'}} className = "fa fa-envelope" aria-hidden="true"></i></a>
-                        <p>anshbhutani1996@gmail.com [Bhuvaneshwari]</p>
+                        <a href = "mailto:bhuvaneshwari@gmail.com" style = {{margin: '10px'}}><i style = {{color: 'black', fontSize: '30px'}} className = "fa fa-envelope" aria-hidden="true"></i></a>
+                        <p>bhuvaneshwari@gmail.com [Bhuvaneshwari]</p>
                     </div>
                     <div style = {{display: 'flex', justifyContent: 'left', alignItems: 'center'}}>
-                        <a href = "mailto:raagbhutani2002@gmail.com" target="_blank" style = {{margin: '10px'}}><i style = {{color: 'black', fontSize: '30px'}} className = "fa fa-envelope" aria-hidden="true"></i></a>
-                        <p>anshbhutani1996@gmail.com [Rodrigo Vegazo]</p>
+                        <a href = "mailto:rodrigovegazo.ca@gmail.com" target="_blank" style = {{margin: '10px'}}><i style = {{color: 'black', fontSize: '30px'}} className = "fa fa-envelope" aria-hidden="true"></i></a>
+                        <p>rodrigovegazo.ca@gmail.com [Rodrigo Vegazo]</p>
                     </div>
                 </div>
               </div>

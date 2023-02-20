@@ -7,7 +7,7 @@ export const info = [
     {
       id: 1,
       dept_name: "Security Office & Reception",
-      Role: "Web-Designer",
+      Role: "Security",
       Role_desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam posuere, eros nec malesuada vestibulum, diam tortor luctus metus, in mollis purus purus vitae justo. Fusce risus ipsum, fermentum vitae aliquam sit amet, hendrerit a magna. Proin purus diam, tincidunt eget elit at, tincidunt pretium nulla. Pellentesque vitae dui vitae dolor rhoncus elementum. Aenean volutpat ultricies purus, eu elementum est auctor id. Curabitur lacus magna, eleifend quis semper nec, accumsan non neque. Nulla facilisi.",
       Openings: 2,
       ExpClosure: "25/02/2023"
@@ -15,7 +15,7 @@ export const info = [
     {
         id: 2,
         dept_name: "Transport Office",
-        Role: "Android Developer",
+        Role: "Transport-Officer",
         Role_desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam posuere, eros nec malesuada vestibulum, diam tortor luctus metus, in mollis purus purus vitae justo. Fusce risus ipsum, fermentum vitae aliquam sit amet, hendrerit a magna. Proin purus diam, tincidunt eget elit at, tincidunt pretium nulla. Pellentesque vitae dui vitae dolor rhoncus elementum. Aenean volutpat ultricies purus, eu elementum est auctor id. Curabitur lacus magna, eleifend quis semper nec, accumsan non neque. Nulla facilisi.",
         Openings: 5,
         ExpClosure: "4/03/2023"
@@ -23,7 +23,7 @@ export const info = [
     {
         id: 3,
         dept_name: "Library",
-        Role: "Mentor",
+        Role: "Head",
         Role_desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam posuere, eros nec malesuada vestibulum, diam tortor luctus metus, in mollis purus purus vitae justo. Fusce risus ipsum, fermentum vitae aliquam sit amet, hendrerit a magna. Proin purus diam, tincidunt eget elit at, tincidunt pretium nulla. Pellentesque vitae dui vitae dolor rhoncus elementum. Aenean volutpat ultricies purus, eu elementum est auctor id. Curabitur lacus magna, eleifend quis semper nec, accumsan non neque. Nulla facilisi.",
         Openings: 1,
         ExpClosure: "5/04/2023"
@@ -31,34 +31,34 @@ export const info = [
     {
       id: 4,
       dept_name: "HR Office",
-      Role: "Mentor",
+      Role: "HR",
       Role_desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam posuere, eros nec malesuada vestibulum, diam tortor luctus metus, in mollis purus purus vitae justo. Fusce risus ipsum, fermentum vitae aliquam sit amet, hendrerit a magna. Proin purus diam, tincidunt eget elit at, tincidunt pretium nulla. Pellentesque vitae dui vitae dolor rhoncus elementum. Aenean volutpat ultricies purus, eu elementum est auctor id. Curabitur lacus magna, eleifend quis semper nec, accumsan non neque. Nulla facilisi.",
       Openings: 1,
-      ExpClosure: "5/04/2023"
+      ExpClosure: "17/05/2023"
   },
   {
     id: 5,
     dept_name: "Business Management",
     Role: "Mentor",
     Role_desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam posuere, eros nec malesuada vestibulum, diam tortor luctus metus, in mollis purus purus vitae justo. Fusce risus ipsum, fermentum vitae aliquam sit amet, hendrerit a magna. Proin purus diam, tincidunt eget elit at, tincidunt pretium nulla. Pellentesque vitae dui vitae dolor rhoncus elementum. Aenean volutpat ultricies purus, eu elementum est auctor id. Curabitur lacus magna, eleifend quis semper nec, accumsan non neque. Nulla facilisi.",
-    Openings: 1,
-    ExpClosure: "5/04/2023"
+    Openings: 2,
+    ExpClosure: "19/07/2023"
   },
   {
     id: 6,
     dept_name: "Finance and Taxation",
-    Role: "Mentor",
+    Role: "Finance",
     Role_desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam posuere, eros nec malesuada vestibulum, diam tortor luctus metus, in mollis purus purus vitae justo. Fusce risus ipsum, fermentum vitae aliquam sit amet, hendrerit a magna. Proin purus diam, tincidunt eget elit at, tincidunt pretium nulla. Pellentesque vitae dui vitae dolor rhoncus elementum. Aenean volutpat ultricies purus, eu elementum est auctor id. Curabitur lacus magna, eleifend quis semper nec, accumsan non neque. Nulla facilisi.",
-    Openings: 1,
-    ExpClosure: "5/04/2023"
+    Openings: 2,
+    ExpClosure: "5/8/2023"
   },
   {
     id: 7,
     dept_name: "Marketing & Sales",
-    Role: "Mentor",
+    Role: "Marketing",
     Role_desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam posuere, eros nec malesuada vestibulum, diam tortor luctus metus, in mollis purus purus vitae justo. Fusce risus ipsum, fermentum vitae aliquam sit amet, hendrerit a magna. Proin purus diam, tincidunt eget elit at, tincidunt pretium nulla. Pellentesque vitae dui vitae dolor rhoncus elementum. Aenean volutpat ultricies purus, eu elementum est auctor id. Curabitur lacus magna, eleifend quis semper nec, accumsan non neque. Nulla facilisi.",
-    Openings: 1,
-    ExpClosure: "5/04/2023"
+    Openings: 3,
+    ExpClosure: "7/10/2023"
   },
   {
     id: 8,

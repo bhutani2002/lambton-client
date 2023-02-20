@@ -98,3 +98,8 @@ img {
 .Vision-Mission{
     padding: 40px 0 0 0 !important;
 }
+@media screen and (max-width: 700px){
+    .Vision-Mission .description{
+        padding: 20px !important;
+    }
+}
