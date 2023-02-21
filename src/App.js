@@ -6,7 +6,7 @@ import NavbarHead from './components/Landing-Page/Navbar-head/Navbar-head';
 import Toyota from './components/Landing-Page/Toyota/Toyota';
 import Login from './components/Login/Login';
 import Register from './components/Register/Register';
-import { BrowserRouter as Router, Routes, Route, Navigate, redirect } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate} from "react-router-dom";
 import { useEffect, useState } from 'react';
 import AdminDashBoard from './components/AdminDashBoard/AdminDashBoard';
 import PageNotFound from './components/PageNotFound/PageNotFound';
@@ -81,7 +81,8 @@ function App() {
           <Route path = '/admindashboard' element = {(userMail === 'LambtonEPZ@gmail.com') ? <AdminDashBoard/> : <PageNotFound/>} />
           {/* <Route exact path = '/admindashboard' element = {(user && (user.email === 'Test@gmail.com')) ? <AdminDashBoard/> : window.history.replaceState(null, '', '/')} /> */}
           {/* <Route path = '/admindashboard' element = {<AdminDashBoard/>}/> */}
-          <Route path = '*' element = {<PageNotFound/>} />
+          <Route path = "/404" element = {<PageNotFound/>} />
+          <Route path = '*'  element = {<Navigate to ="/404" />} />
         </Routes>
         <Footer/>
         <Goto/>

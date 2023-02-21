@@ -27,12 +27,21 @@ p{
     font-weight: 200;
     font-size: 18px;
 }
-.description{
+.description-about{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 60px 60px;
+    padding: 60px 60px !important;
+    text-align: justify;
+    position: relative;
+}
+.description-mission, .description-vision{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px 60px !important;
     text-align: justify;
     position: relative;
 }
@@ -99,7 +108,7 @@ img {
     padding: 40px 0 0 0 !important;
 }
 @media screen and (max-width: 700px){
-    .Vision-Mission .description{
+    .Vision-Mission, .description-about, .description-mission, .description-vision{
         padding: 20px !important;
     }
 }

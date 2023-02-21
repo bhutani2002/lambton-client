@@ -16,8 +16,9 @@ import Gstart from '../../../assets/images/google-kickstart.jpg'
 import Gcloud from '../../../assets/images/30-Days-Of-Google-Cloud.png'
 // Environmental_image
 import Env from '../../../assets/images/Environmental_image.jpg'
-import RAV4Prime from '../../../assets/images/b23_gb3fv.png'
+import RAV4Prime from '../../../assets/images/RAV4-Prime-Vehicle.png'
 import ProjectBenefits from '../../../assets/images/Project-Benefits.png'
+import OurPLant from '../../../assets/images/Our-Plant.jpeg'
 const Toyota = () => {
   return (
     <div className = 'Company-Block'>
@@ -44,7 +45,7 @@ const Toyota = () => {
             <Row className = 'OurPlant-dir'>
                 <Col size={12} md = {4} sm={6} className = "Comp-image">
                     <MDBCard className = 'cardbo'>
-                        <MDBCardImage src = {Gcloud} className='cardimg' alt='...' />
+                        <MDBCardImage src = {OurPLant} className='cardimg' alt='...' />
                     </MDBCard>
                 </Col>
                 <Col size={12} md = {8} sm={6} className = 'description'>

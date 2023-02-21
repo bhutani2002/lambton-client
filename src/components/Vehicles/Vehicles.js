@@ -9,7 +9,8 @@ import { Button, Col, Nav, Row, Tab } from 'react-bootstrap'
 import VehicleCard from './VehicleCard'
 import BZ4X from '../../assets/images/b23_abzeve.png'
 import PriusPrime from '../../assets/images/b22_kark1.png'
-import RAV4Prime from '../../assets/images/b23_gb3fv.png'
+// import RAV4Prime from '../../assets/images/b23_gb3fv.png'
+import RAV4Prime from '../../assets/images/RAV4-Prime-Vehicle.png'
 import ElecCalc from '../../assets/images/toyota-electrification-gas-electric-calculator-s.jpg'
 import Accordion from '../Accordion/Accordion'
 const Vehicles = () => {
@@ -78,7 +79,7 @@ const Vehicles = () => {
                         </div>
                     </div>
                     <div className = 'veh-desc-para SolImgDesc'>
-                        <Col md = {6}>
+                        <Col md = {12}>
                             PHEVs operate in the same way as HEVs, but can optionally be plugged in for extended electric-only range.
                         </Col>
                     </div>
@@ -93,7 +94,7 @@ const Vehicles = () => {
                         </div>
                     </div>
                     <div className = 'veh-desc-para SolImgDesc'>
-                        <Col md = {6}>
+                        <Col md = {12}>
                             BEVs are zero-emission vehicles that are powered by electricity alone. BEVs require plugging-in, while also utilizing regenerative braking to recharge the onboard battery as you drive.
                         </Col>
                     </div>

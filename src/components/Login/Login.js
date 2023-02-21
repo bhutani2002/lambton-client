@@ -29,19 +29,19 @@ const Login = ({ setLoginUser, setbutName}) => {
         if(email && password){
             axios.post("/api/login", user)
             .then(res => {
-                if(res.data.user.email === 'LambtonEPZ@gmail.com'){
-                    desig = "Admin";
-                }else{
-                    desig = "";
-                }
-                if(res.data.code === 'L2')
+                if(res.data.code == 'L4')
                     toast.error(res.data.message)
-                else if(res.data.code === 'L1')
-                    toast.success(<div>Hi {res.data.user.name}! <br /> Welcome to the Sarnia Lambton EPZ {desig} Portal</div>,{position: "top-center"});
                 else if(res.data.code === 'L3')
                     toast.error(res.data.message);
-                
-                if(res.data.code === 'L1'){
+                if(res.data.code === 'L2')
+                    toast.error(res.data.message)
+                else if(res.data.code === 'L1'){
+                    if(res.data.user.email === 'LambtonEPZ@gmail.com'){
+                        desig = "Admin";
+                    }else{
+                        desig = "";
+                    }
+                    toast.success(<div>Hi {res.data.user.name}! <br /> Welcome to the Sarnia Lambton EPZ {desig} Portal</div>,{position: "top-center"});
                     setLoginUser(res.data.user);
                     setbutName("LogOut");
                     
