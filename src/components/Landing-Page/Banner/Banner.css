@@ -16,8 +16,17 @@
     background-size: cover; */
     object-fit: cover;
 }
+.carousel-control-prev, .carousel-control-next{
+    height: 80%;
+}
+.carousel .carousel-control-prev-icon, .carousel .carousel-control-next-icon{
+    visibility: hidden;
+}
+.carousel:hover .carousel-control-prev-icon, .carousel:hover .carousel-control-next-icon{
+    visibility: visible;
+}
 @media screen and (max-width: 1440px) {
     .crau-image{
-        height: 500px;
+        height: 500px !important;
     }
 }
